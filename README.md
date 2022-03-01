@@ -97,10 +97,11 @@
 - [Rekor](https://github.com/sigstore/rekor) - Software Supply Chain Transparency Log
 
 ## Demo
-
+- [ssf](https://github.com/thesecuresoftwarefactory/ssf) - Prototype implementation of the CNCF's Software Supply Chain Best Practices White Paper
 - [demonstration of SLSA provenance generation strategies](https://github.com/slsa-framework/provenance-architecture-demo) - A demonstration of SLSA provenance generation strategies that don't require full build system integration.
+
 ## Document
 - [Is your software supply chain secure?](https://blog.convisoappsec.com/en/is-your-software-supply-chain-secure/)
 - [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md)
 - [Secure Publication of Datadog Agent Integrations with TUF and in-toto](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/)
-- [The Secure Software Factory is a prototype implementation of the CNCF's Secure Software Factory Reference Architecture which is based on the CNCF's Software Supply Chain Best Practices White Paper](https://github.com/thesecuresoftwarefactory/ssf)
+
