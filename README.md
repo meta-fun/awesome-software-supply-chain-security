@@ -1,31 +1,37 @@
-# Awesome Supply Chain Security
+# Awesome Software Supply Chain Security
 
 ## Token Protect
 - [truffleHog](https://github.com/trufflesecurity/truffleHog) - Searches through git repositories for secrets, digging deep into commit history and branches. This is effective at finding secrets accidentally committed.
 - [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
 
-## SBOM
+## Software Bill of Materials
 - [SPDX](https://github.com/spdx) - SPDX is an open standard for communicating SBOM information, including provenance, license, security, and other related information.
 - [CycloneDX](https://github.com/CycloneDX) - OWASP CycloneDX is a lightweight Software Bill of Materials (SBOM) standard designed for use in application security contexts and supply chain component analysis.
 - [Tern](https://github.com/tern-tools/tern) - A software package inspection tool that can create a Software Bill of Materials (SBOM) for containers. It's written in Python3 with a smattering of shell scripts.
-- [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems
+- [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems.
+- [bom](https://github.com/kubernetes-sigs/bom) - A utility to generate SPDX-compliant Bill of Materials manifests
 
-## Source Code Analysis
-- [Source Code Analysis Tools](https://owasp.org/www-community/Source_Code_Analysis_Tools) - Static Application Security Testing (SAST) Tools list, can help analyze source code or compiled versions of code to help find security flaws.
-- [Go-SCP](https://github.com/OWASP/Go-SCP) - Go language web application secure coding practices.
-- [FOSSology](https://github.com/fossology/fossology​) - An open source license compliance software system and toolkit. As a toolkit you can run license, copyright and export control scans from the command line. As a system, a database and web ui are provided to give you a compliance workflow.
-- [OpenSCAP](https://github.com/OpenSCAP) - Open Source Security Compliance Solution
+## Software Composition Analysis
+- [DependencyTrack](https://github.com/orgs/DependencyTrack/repositories) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
+- [DependencyCheck](https://github.com/jeremylong/DependencyCheck) - OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.
+- [scancode-toolkit](https://github.com/nexB/scancode-toolkit) - ScanCode detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
+
+## Static Application Security Testing
+- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
+- [Horusec](https://github.com/ZupIT/horusec) - Horusec is an open source tool that improves identification of vulnerabilities in your project with just one command.
+- [Semgrep](https://github.com/returntocorp/semgrep) - Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
 - [Scan](https://github.com/ShiftLeftSecurity/sast-scan) - Scan is a free & Open Source DevSecOps tool for performing static analysis based security testing of your applications and its dependencies.
-- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues
 - [starter-workflows](https://github.com/actions/starter-workflows/tree/main/code-scanning) - GitHub code scanning is a developer-first, GitHub-native approach to easily find security vulnerabilities before they reach production. 
 - [CodeQL](https://github.com/github/codeql) - the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security (code scanning)
 - [DevSkim](https://github.com/microsoft/DevSkim) - DevSkim is a set of IDE plugins and rules that provide security "linting" capabilities.
-- [flawfinder](https://github.com/david-a-wheeler/flawfinder) - a static analysis tool for finding vulnerabilities in C/C++ source code
-- [kubectl-kubesec](https://github.com/controlplaneio/kubectl-kubesec) - Security risk analysis for Kubernetes resources
+- [flawfinder](https://github.com/david-a-wheeler/flawfinder) - a static analysis tool for finding vulnerabilities in C/C++ source code.
+- [kubectl-kubesec](https://github.com/controlplaneio/kubectl-kubesec) - Security risk analysis for Kubernetes resources.
 - [mobsfscan](https://github.com/MobSF/mobsfscan) - mobsfscan is a static analysis tool that can find insecure code patterns in your Android and iOS source code. Supports Java, Kotlin, Swift, and Objective C Code. 
 - [njsscan](https://github.com/ajinabraham/njsscan) - njsscan is a semantic aware SAST tool that can find insecure code patterns in your Node.js applications.
-- [tfsec](https://github.com/aquasecurity/tfsec) - Security scanner for your Terraform code
-
+- [tfsec](https://github.com/aquasecurity/tfsec) - Security scanner for your Terraform code.
+- [insider](https://github.com/insidersec/insider) - SAST Engine focused on covering the OWASP Top 10, support Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Ful...
+- [SpotBugs](https://github.com/spotbugs/spotbugs) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+- [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) - The SpotBugs plugin for security audits of Java web applications and Android applications.
 
 ## Container Security Scanners
 - [Clair](https://github.com/quay/clair) - Vulnerability Static Analysis for Containers
@@ -42,6 +48,7 @@
 ## Artifact Metadata
 - [in-toto](https://github.com/in-toto/in-toto) - An open metadata standard that you can implement in your software's supply chain toolchain.
 - [Grafeas](https://github.com/grafeas/grafeas) - An open-source artifact metadata API that provides a uniform way to audit and govern your software supply chain.
+- [tkn-intoto-formatter](https://github.com/OpenSecureSupplyChain/tkn-intoto-formatter) - A common library to convert any tekton resource to intoto attestation format.
 
 ## Identity Management
 - [Spiffe/Spire](https://spiffe.io/) A universal identity control plane for distributed systems.
@@ -66,6 +73,7 @@
 - [go-tuf](https://github.com/theupdateframework/go-tuf) - Go implementation of The Update Framework (TUF).
 - [](https://github.com/awslabs/tough) - Rust libraries and tools for using and generating TUF repositories.
 - [Notation](https://github.com/notaryproject/notation) - A project to add signatures as standard items in the registry ecosystem, and to build a set of simple tooling for signing and verifying these signatures. 
+- [k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) - kubectl plugin for signing Kubernetes manifest YAML files with sigstore
 
 ## Framework
 - [SLSA](https://github.com/slsa-framework/slsa) - A security framework, a check-list of standards and controls to prevent tampering, improve integrity, and secure packages and infrastructure in your projects, businesses or enterprises. 
@@ -82,9 +90,6 @@
 ## Risk Management
 - [Scorecard](https://github.com/ossf/scorecard) - Scorecards is an automated tool that assesses a number of important heuristics ("checks") associated with software security and assigns each check a score of 0-10.
 - [Open Source Project Criticality Score](https://github.com/ossf/criticality_score) - Gives criticality score for an open source project
-
-## Dependencies Track
-- [DependencyTrack](https://github.com/orgs/DependencyTrack/repositories) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
 
 ## OCI Image Tools
 - [Buildah](https://github.com/containers/buildah) - A tool that facilitates building OCI images.
@@ -104,4 +109,5 @@
 - [Is your software supply chain secure?](https://blog.convisoappsec.com/en/is-your-software-supply-chain-secure/)
 - [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md)
 - [Secure Publication of Datadog Agent Integrations with TUF and in-toto](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/)
+- [Static Application Security Testing (SAST) Tools list](https://owasp.org/www-community/Source_Code_Analysis_Tools)
 
