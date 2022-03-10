@@ -1,5 +1,11 @@
 # Awesome Software Supply Chain Security
 
+## Glossary
+- SBOM: Software Bill of Materials
+- SCA: Software Composition Analysis
+- SAST: Static Application Security Testing
+- VCS: Version Control System
+
 ## Token Protect
 - [truffleHog](https://github.com/trufflesecurity/truffleHog) - Searches through git repositories for secrets, digging deep into commit history and branches. This is effective at finding secrets accidentally committed.
 - [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
@@ -16,6 +22,7 @@
 - [DependencyTrack](https://github.com/orgs/DependencyTrack/repositories) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
 - [DependencyCheck](https://github.com/jeremylong/DependencyCheck) - OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.
 - [scancode-toolkit](https://github.com/nexB/scancode-toolkit) - ScanCode detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
+- [Open Source Insights](https://deps.dev/) - An experimental service developed and hosted by Google to help developers better understand the structure, construction, and security of open source software packages.
 
 ## Static Application Security Testing
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
@@ -54,6 +61,9 @@
 
 ## Identity Management
 - [Spiffe/Spire](https://spiffe.io/) A universal identity control plane for distributed systems.
+- [SWID](https://www.ietf.org/archive/id/draft-ietf-sacm-coswid-18.html) - Software Identification (SWID) tags provide an extensible XML-based structure to identify and describe individual software components, patches, and installation bundles.
+- [purl](https://github.com/package-url/purl-spec) - A purl is a URL string used to identify and locate a software package in a mostly universal and uniform way across programing languages, package managers, packaging conventions, tools, APIs and databases.
+- [Grafeas](https://github.com/grafeas/grafeas) - Grafeas defines an API spec for managing metadata about software resources, such as container images, Virtual Machine (VM) images, JAR files, and scripts. 
 
 ## CI/CD
 - [Kaniko](https://github.com/GoogleContainerTools/kaniko) - Build container images in Kubernetes.
@@ -80,8 +90,8 @@
 ## Framework
 - [SLSA](https://github.com/slsa-framework/slsa) - A security framework, a check-list of standards and controls to prevent tampering, improve integrity, and secure packages and infrastructure in your projects, businesses or enterprises. 
 - [SLSA Attestations](https://github.com/slsa-framework/slsa/blob/main/controls/attestations.md) - Standardize the terminology, data model, layers, and conventions for software artifact metadata.
-- [scim](https://github.com/microsoft/scim) - Supply Chain Integrity Model
-- [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md)
+- [SCIM](https://github.com/microsoft/scim) - The proposed SCIM will be an industry standard specification, easing the path for uniform data flow across globally distributed supply chains.
+- [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md) - CNCF provide a comprehensive software supply chain paper highlighting best practices for high and medium risk environments.
 - [Blueprint Secure Software Pipeline](https://github.com/Venafi/blueprint-securesoftwarepipeline) - Blueprint for building modern, secure software development pipelines
 
 ## Kubernetes Admission Controller
