@@ -17,12 +17,15 @@
 - [Tern](https://github.com/tern-tools/tern) - A software package inspection tool that can create a Software Bill of Materials (SBOM) for containers. It's written in Python3 with a smattering of shell scripts.
 - [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems.
 - [bom](https://github.com/kubernetes-sigs/bom) - A utility to generate SPDX-compliant Bill of Materials manifests
+- [ko](https://github.com/google/ko) - Build and deploy Go applications on Kubernetes, support generate upload SBOM etc.
 
 ## Software Composition Analysis
+- [Open Source Insights](https://deps.dev/) - Open Source Insights is an experimental service developed and hosted by Google to help developers better understand the structure, construction, and security of open source software packages. 
 - [DependencyTrack](https://github.com/orgs/DependencyTrack/repositories) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.
 - [DependencyCheck](https://github.com/jeremylong/DependencyCheck) - OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.
 - [scancode-toolkit](https://github.com/nexB/scancode-toolkit) - ScanCode detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
 - [Open Source Insights](https://deps.dev/) - An experimental service developed and hosted by Google to help developers better understand the structure, construction, and security of open source software packages.
+- [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) - The OSS Review Toolkit (ORT) aims to assist with the tasks that commonly need to be performed in the context of license compliance checks, especially for (but not limited to) Free and Open Source Software dependencies.
 
 ## Static Application Security Testing
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
@@ -59,11 +62,13 @@
 - [Grafeas](https://github.com/grafeas/grafeas) - An open-source artifact metadata API that provides a uniform way to audit and govern your software supply chain.
 - [tkn-intoto-formatter](https://github.com/OpenSecureSupplyChain/tkn-intoto-formatter) - A common library to convert any tekton resource to intoto attestation format.
 
-## Identity Management
+## Identity Tools
 - [Spiffe/Spire](https://spiffe.io/) A universal identity control plane for distributed systems.
 - [SWID](https://www.ietf.org/archive/id/draft-ietf-sacm-coswid-18.html) - Software Identification (SWID) tags provide an extensible XML-based structure to identify and describe individual software components, patches, and installation bundles.
 - [purl](https://github.com/package-url/purl-spec) - A purl is a URL string used to identify and locate a software package in a mostly universal and uniform way across programing languages, package managers, packaging conventions, tools, APIs and databases.
 - [Grafeas](https://github.com/grafeas/grafeas) - Grafeas defines an API spec for managing metadata about software resources, such as container images, Virtual Machine (VM) images, JAR files, and scripts. 
+- [CIRCL hashlookup](https://www.circl.lu/services/hashlookup/) - CIRCL hash lookup is a public API to lookup hash values against known database of files. 
+- [Dex](https://github.com/dexidp/dex) - Dex is an identity service that uses OpenID Connect to drive authentication for other apps.
 
 ## CI/CD
 - [Kaniko](https://github.com/GoogleContainerTools/kaniko) - Build container images in Kubernetes.
@@ -76,6 +81,7 @@
 - [jx-git-operator](https://github.com/jenkins-x/jx-git-operator) - An operator which polls a git repository for changes and triggers a Kubernetes Job to process the changes in git.
 - [Lighthouse](https://github.com/jenkins-x/lighthouse) - Lighthouse is a lightweight ChatOps based webhook handler which can trigger Jenkins X Pipelines, Tekton Pipelines or Jenkins Jobs based on webhooks from multiple git providers such as GitHub, GitHub Enterprise, BitBucket Server and GitLab.
 - [Starter Workflows](https://github.com/actions/starter-workflows) - Workflow files for helping people get started with GitHub Actions.
+- [ko](https://github.com/google/ko) - Build and deploy Go applications on Kubernetes
 
 ## Signing Artefacts
 - [cosign](https://github.com/sigstore/cosign) - Container Signing, Verification and Storage in an OCI registry.
@@ -93,11 +99,14 @@
 - [SCIM](https://github.com/microsoft/scim) - The proposed SCIM will be an industry standard specification, easing the path for uniform data flow across globally distributed supply chains.
 - [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md) - CNCF provide a comprehensive software supply chain paper highlighting best practices for high and medium risk environments.
 - [Blueprint Secure Software Pipeline](https://github.com/Venafi/blueprint-securesoftwarepipeline) - Blueprint for building modern, secure software development pipelines
+- [Witness](https://github.com/testifysec/witness) - Witness is a pluggable framework for software supply chain risk management. It automates, normalizes, and verifies software artifact providence.
 
 ## Kubernetes Admission Controller
 - [Kyverno](https://github.com/kyverno/kyverno) - A policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. Kyverno is designed to work nicely with tools you already use like kubectl, kustomize, and Git.
 - [Kritis](https://github.com/grafeas/kritis) - An open-source solution for securing your software supply chain for Kubernetes applications, it enforces deploy-time security policies using the Grafeas API.
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.
+- [Ratify](https://github.com/deislabs/ratify) - The project provides a framework to integrate scenarios that require verification of reference artifacts and provides a set of interfaces that can be consumed by various systems that can participate in artifact ratification.
+
 
 ## Risk Management
 - [Scorecard](https://github.com/ossf/scorecard) - Scorecards is an automated tool that assesses a number of important heuristics ("checks") associated with software security and assigns each check a score of 0-10.
@@ -112,6 +121,7 @@
 ## Data Store
 - [Trillian](https://github.com/google/trillian) - A transparent, highly scalable and cryptographically verifiable data store.
 - [Rekor](https://github.com/sigstore/rekor) - Software Supply Chain Transparency Log
+- [ORAS](https://oras.land/) - Registries are evolving as generic artifact stores. To enable this goal, the ORAS project provides a way to push and pull OCI Artifacts to and from OCI Registries.
 
 ## Demo
 - [ssf](https://github.com/thesecuresoftwarefactory/ssf) - Prototype implementation of the CNCF's Software Supply Chain Best Practices White Paper
@@ -122,4 +132,5 @@
 - [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md)
 - [Secure Publication of Datadog Agent Integrations with TUF and in-toto](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/)
 - [Static Application Security Testing (SAST) Tools list](https://owasp.org/www-community/Source_Code_Analysis_Tools)
+- [sigstore, the local way](https://blog.chainguard.dev/sigstore-the-local-way/)
 
