@@ -26,6 +26,8 @@
 - [scancode-toolkit](https://github.com/nexB/scancode-toolkit) - ScanCode detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
 - [Open Source Insights](https://deps.dev/) - An experimental service developed and hosted by Google to help developers better understand the structure, construction, and security of open source software packages.
 - [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) - The OSS Review Toolkit (ORT) aims to assist with the tasks that commonly need to be performed in the context of license compliance checks, especially for (but not limited to) Free and Open Source Software dependencies.
+- [License Finder](https://github.com/pivotal/LicenseFinder) - LicenseFinder works with package managers to find dependencies, detect the licenses of the packages in them, compare those licenses against a user-defined list of permitted licenses.
+- [go-licenses](https://github.com/google/go-licenses) - Analyzes the dependency tree of a Go package/binary. It can output a report on the libraries used and under what license they can be used. It can also collect all of the license documents, copyright notices and source code into a directory in order to comply with license terms on redistribution.
 
 ## Static Application Security Testing
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
@@ -44,6 +46,12 @@
 - [SpotBugs](https://github.com/spotbugs/spotbugs) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 - [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) - The SpotBugs plugin for security audits of Java web applications and Android applications.
 - [Checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations during build-time for Terraform, CloudFormation, Kubernetes, Serverless framework and other infrastructure-as-code-languages with Checkov by Bridgecrew
+- [go-license-detector](https://github.com/src-d/go-license-detector) - a command line application and a library, written in Go. It scans the given directory for license files, normalizes and hashes them and outputs all the fuzzy matches with the list of reference texts. 
+- [askalono](https://github.com/jpeddicord/askalono) - askalono is a library and command-line tool to help detect license texts. It's designed to be fast, accurate, and to support a wide variety of license texts.
+- [licensechecker](https://github.com/boyter/lc) - licensechecker (lc) a command line application which scans directories and identifies what software license things are under producing reports as either SPDX, CSV, JSON, XLSX or CLI Tabular output. Dual-licensed under MIT or the UNLICENSE.
+- [licensee](https://github.com/licensee/licensee) - A Ruby Gem to detect under what license a project is distributed.
+- [licenseclassifier](https://github.com/google/licenseclassifier) - The license classifier is a library and set of tools that can analyze text to determine what type of license it contains. It searches for license texts in a file and compares them to an archive of known licenses. 
+- [licensed](https://github.com/github/licensed) - A Ruby gem to cache and verify the licenses of dependencies
 
 ## Container Security Scanners
 - [Clair](https://github.com/quay/clair) - Vulnerability Static Analysis for Containers
