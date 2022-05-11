@@ -65,6 +65,15 @@
 - [Container Security](https://www.qualys.com/apps/container-security/) - Qualys container security is a tool used to discover, track, and continuously protect container environments. 
 - [Docker Scan](https://github.com/anchore/grype/) -  Docker Scan leverages Synk engine and capable of scanning local Dockerfile, images, and its dependencies to find known vulnerabilities. You can run docker scan from Docker Desktop.
 
+## Vulnerabilities Database
+- [osv](https://github.com/google/osv) - Open source vulnerability DB and triage service.
+- [advisory-database](https://github.com/github/advisory-database) - Security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software.
+- [golang/vulndb](https://github.com/golang/vulndb) - The Go Vulnerability Database
+- [pypa/advisory-database](https://github.com/pypa/advisory-database) - Advisory database for Python packages published on pypi.org
+- [RustSec/advisory-db](https://github.com/RustSec/advisory-db) - Security advisory database for Rust crates published through crates.io
+- [gsd-database](https://github.com/cloudsecurityalliance/gsd-database) - Global Security Database
+- [oss-fuzz-vulns](https://github.com/google/oss-fuzz-vulns) - OSS-Fuzz vulnerabilities for OSV.
+
 ## Artifact Metadata
 - [in-toto](https://github.com/in-toto/in-toto) - An open metadata standard that you can implement in your software's supply chain toolchain.
 - [Grafeas](https://github.com/grafeas/grafeas) - An open-source artifact metadata API that provides a uniform way to audit and govern your software supply chain.
@@ -115,7 +124,6 @@
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.
 - [Ratify](https://github.com/deislabs/ratify) - The project provides a framework to integrate scenarios that require verification of reference artifacts and provides a set of interfaces that can be consumed by various systems that can participate in artifact ratification.
 
-
 ## Risk Management
 - [Scorecard](https://github.com/ossf/scorecard) - Scorecards is an automated tool that assesses a number of important heuristics ("checks") associated with software security and assigns each check a score of 0-10.
 - [Open Source Project Criticality Score](https://github.com/ossf/criticality_score) - Gives criticality score for an open source project
@@ -130,6 +138,9 @@
 - [Trillian](https://github.com/google/trillian) - A transparent, highly scalable and cryptographically verifiable data store.
 - [Rekor](https://github.com/sigstore/rekor) - Software Supply Chain Transparency Log
 - [ORAS](https://oras.land/) - Registries are evolving as generic artifact stores. To enable this goal, the ORAS project provides a way to push and pull OCI Artifacts to and from OCI Registries.
+
+## Fuzz Testing
+- [OSS-Fuzz](https://github.com/google/oss-fuzz) - OSS-Fuzz - continuous fuzzing for open source software.
 
 ## Demo
 - [ssf](https://github.com/thesecuresoftwarefactory/ssf) - Prototype implementation of the CNCF's Software Supply Chain Best Practices White Paper
