@@ -28,6 +28,9 @@
 - [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) - The OSS Review Toolkit (ORT) aims to assist with the tasks that commonly need to be performed in the context of license compliance checks, especially for (but not limited to) Free and Open Source Software dependencies.
 - [License Finder](https://github.com/pivotal/LicenseFinder) - LicenseFinder works with package managers to find dependencies, detect the licenses of the packages in them, compare those licenses against a user-defined list of permitted licenses.
 - [go-licenses](https://github.com/google/go-licenses) - Analyzes the dependency tree of a Go package/binary. It can output a report on the libraries used and under what license they can be used. It can also collect all of the license documents, copyright notices and source code into a directory in order to comply with license terms on redistribution.
+- [Anchore](https://github.com/anchore/grype/) - A vulnerability scanner for container images and filesystems.
+- [OpenSCA-Cli](https://github.com/XmirrorSecurity/OpenSCA-cli) - OpenSCA is now capable of parsing configuration files in the listed programming languages and correspondent package managers.
+- [MurphySec CLI](https://github.com/murphysecurity/murphysec) - MurphySec CLI is used for detecting vulnerable dependencies from the command-line, and also can be integrated into your CI/CD pipeline.
 
 ## Static Application Security Testing
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
@@ -127,6 +130,7 @@
 ## Risk Management
 - [Scorecard](https://github.com/ossf/scorecard) - Scorecards is an automated tool that assesses a number of important heuristics ("checks") associated with software security and assigns each check a score of 0-10.
 - [Open Source Project Criticality Score](https://github.com/ossf/criticality_score) - Gives criticality score for an open source project
+- [allstar](https://github.com/ossf/allstar) - GitHub App to set and enforce security policies
 
 ## OCI Image Tools
 - [Buildah](https://github.com/containers/buildah) - A tool that facilitates building OCI images.
@@ -141,6 +145,16 @@
 
 ## Fuzz Testing
 - [OSS-Fuzz](https://github.com/google/oss-fuzz) - OSS-Fuzz - continuous fuzzing for open source software.
+
+## Vulnerability Databases
+- [National Vulnerability Database](https://nvd.nist.gov/) - The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP).
+- [CVE Details](https://www.cvedetails.com/) - CVE Details provides an easy to use web interface to CVE vulnerability data. 
+- [Exploit Database Online](https://www.exploit-db.com/) - The Exploit Database is the most comprehensive collection of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers.
+- [Exploit Database Offline](https://github.com/offensive-security/exploitdb) - The official Exploit Database repository.
+- [VulnDB Data Mirror](https://github.com/stevespringett/vulndb-data-mirror) - A simple Java command-line utility to mirror the entire contents of VulnDB.
+- [NIST Data Mirror](https://github.com/stevespringett/nist-data-mirror) - A simple Java command-line utility to mirror the CVE JSON data from NIST.
+- [Snyk Vulnerability Database](https://security.snyk.io/vuln) - Snyk Vulnerability Database.
+- [Vuldb](https://vuldb.com/) - Vulnerability database documenting and explaining security vulnerabilities, threats, and exploits since 1970.
 
 ## Demo
 - [ssf](https://github.com/thesecuresoftwarefactory/ssf) - Prototype implementation of the CNCF's Software Supply Chain Best Practices White Paper
