@@ -69,6 +69,14 @@
 - [Docker Scan](https://github.com/anchore/grype/) -  Docker Scan leverages Synk engine and capable of scanning local Dockerfile, images, and its dependencies to find known vulnerabilities. You can run docker scan from Docker Desktop.
 
 ## Vulnerabilities Database
+- [National Vulnerability Database](https://nvd.nist.gov/) - The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP).
+- [CVE Details](https://www.cvedetails.com/) - CVE Details provides an easy to use web interface to CVE vulnerability data. 
+- [Exploit Database Online](https://www.exploit-db.com/) - The Exploit Database is the most comprehensive collection of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers.
+- [Exploit Database Offline](https://github.com/offensive-security/exploitdb) - The official Exploit Database repository.
+- [VulnDB Data Mirror](https://github.com/stevespringett/vulndb-data-mirror) - A simple Java command-line utility to mirror the entire contents of VulnDB.
+- [NIST Data Mirror](https://github.com/stevespringett/nist-data-mirror) - A simple Java command-line utility to mirror the CVE JSON data from NIST.
+- [Snyk Vulnerability Database](https://security.snyk.io/vuln) - Snyk Vulnerability Database.
+- [Vuldb](https://vuldb.com/) - Vulnerability database documenting and explaining security vulnerabilities, threats, and exploits since 1970.
 - [osv](https://github.com/google/osv) - Open source vulnerability DB and triage service.
 - [advisory-database](https://github.com/github/advisory-database) - Security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software.
 - [golang/vulndb](https://github.com/golang/vulndb) - The Go Vulnerability Database
@@ -145,16 +153,6 @@
 
 ## Fuzz Testing
 - [OSS-Fuzz](https://github.com/google/oss-fuzz) - OSS-Fuzz - continuous fuzzing for open source software.
-
-## Vulnerability Databases
-- [National Vulnerability Database](https://nvd.nist.gov/) - The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP).
-- [CVE Details](https://www.cvedetails.com/) - CVE Details provides an easy to use web interface to CVE vulnerability data. 
-- [Exploit Database Online](https://www.exploit-db.com/) - The Exploit Database is the most comprehensive collection of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers.
-- [Exploit Database Offline](https://github.com/offensive-security/exploitdb) - The official Exploit Database repository.
-- [VulnDB Data Mirror](https://github.com/stevespringett/vulndb-data-mirror) - A simple Java command-line utility to mirror the entire contents of VulnDB.
-- [NIST Data Mirror](https://github.com/stevespringett/nist-data-mirror) - A simple Java command-line utility to mirror the CVE JSON data from NIST.
-- [Snyk Vulnerability Database](https://security.snyk.io/vuln) - Snyk Vulnerability Database.
-- [Vuldb](https://vuldb.com/) - Vulnerability database documenting and explaining security vulnerabilities, threats, and exploits since 1970.
 
 ## Demo
 - [ssf](https://github.com/thesecuresoftwarefactory/ssf) - Prototype implementation of the CNCF's Software Supply Chain Best Practices White Paper
