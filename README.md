@@ -4,12 +4,14 @@
 - SBOM: Software Bill of Materials
 - SCA: Software Composition Analysis
 - SAST: Static Application Security Testing
+- IAST: Interactive Application Security Testing
 - VCS: Version Control System
 
-## Token Protect
+## Secret Leakages
 - [truffleHog](https://github.com/trufflesecurity/truffleHog) - Searches through git repositories for secrets, digging deep into commit history and branches. This is effective at finding secrets accidentally committed.
 - [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
 - [Gitleaks](https://github.com/zricethezav/gitleaks) - Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
+- [SecLists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
 ## Software Bill of Materials
 - [SPDX](https://github.com/spdx) - SPDX is an open standard for communicating SBOM information, including provenance, license, security, and other related information.
@@ -18,6 +20,7 @@
 - [Syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems.
 - [bom](https://github.com/kubernetes-sigs/bom) - A utility to generate SPDX-compliant Bill of Materials manifests
 - [ko](https://github.com/google/ko) - Build and deploy Go applications on Kubernetes, support generate upload SBOM etc.
+- [sbom-tool](https://github.com/microsoft/sbom-tool) - Microsoft's SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.
 
 ## Software Composition Analysis
 - [Open Source Insights](https://deps.dev/) - Open Source Insights is an experimental service developed and hosted by Google to help developers better understand the structure, construction, and security of open source software packages. 
