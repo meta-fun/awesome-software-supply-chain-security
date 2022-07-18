@@ -34,6 +34,7 @@
 - [Anchore](https://github.com/anchore/grype/) - A vulnerability scanner for container images and filesystems.
 - [OpenSCA-Cli](https://github.com/XmirrorSecurity/OpenSCA-cli) - OpenSCA is now capable of parsing configuration files in the listed programming languages and correspondent package managers.
 - [MurphySec CLI](https://github.com/murphysecurity/murphysec) - MurphySec CLI is used for detecting vulnerable dependencies from the command-line, and also can be integrated into your CI/CD pipeline.
+- [Gemnasium](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium) - Dependency Scanning analyzer that uses the GitLab Advisory Database.
 
 ## Static Application Security Testing
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues.
@@ -51,13 +52,17 @@
 - [insider](https://github.com/insidersec/insider) - SAST Engine focused on covering the OWASP Top 10, support Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Ful...
 - [SpotBugs](https://github.com/spotbugs/spotbugs) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 - [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs) - The SpotBugs plugin for security audits of Java web applications and Android applications.
-- [Checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations during build-time for Terraform, CloudFormation, Kubernetes, Serverless framework and other infrastructure-as-code-languages with Checkov by Bridgecrew
 - [go-license-detector](https://github.com/src-d/go-license-detector) - a command line application and a library, written in Go. It scans the given directory for license files, normalizes and hashes them and outputs all the fuzzy matches with the list of reference texts. 
 - [askalono](https://github.com/jpeddicord/askalono) - askalono is a library and command-line tool to help detect license texts. It's designed to be fast, accurate, and to support a wide variety of license texts.
 - [licensechecker](https://github.com/boyter/lc) - licensechecker (lc) a command line application which scans directories and identifies what software license things are under producing reports as either SPDX, CSV, JSON, XLSX or CLI Tabular output. Dual-licensed under MIT or the UNLICENSE.
 - [licensee](https://github.com/licensee/licensee) - A Ruby Gem to detect under what license a project is distributed.
 - [licenseclassifier](https://github.com/google/licenseclassifier) - The license classifier is a library and set of tools that can analyze text to determine what type of license it contains. It searches for license texts in a file and compares them to an archive of known licenses. 
 - [licensed](https://github.com/github/licensed) - A Ruby gem to cache and verify the licenses of dependencies
+
+## Infrastructure as Code Secure
+
+- [kics](https://github.com/Checkmarx/kics) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code.
+- [Checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations during build-time for Terraform, CloudFormation, Kubernetes, Serverless framework and other infrastructure-as-code-languages with Checkov by Bridgecrew.
 
 ## Container Security Scanners
 - [Clair](https://github.com/quay/clair) - Vulnerability Static Analysis for Containers
@@ -131,6 +136,9 @@
 - [Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md) - CNCF provide a comprehensive software supply chain paper highlighting best practices for high and medium risk environments.
 - [Blueprint Secure Software Pipeline](https://github.com/Venafi/blueprint-securesoftwarepipeline) - Blueprint for building modern, secure software development pipelines
 - [Witness](https://github.com/testifysec/witness) - Witness is a pluggable framework for software supply chain risk management. It automates, normalizes, and verifies software artifact providence.
+
+## Platform
+- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - A security orchestration and vulnerability management platform.
 
 ## Kubernetes Admission Controller
 - [Kyverno](https://github.com/kyverno/kyverno) - A policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. Kyverno is designed to work nicely with tools you already use like kubectl, kustomize, and Git.
