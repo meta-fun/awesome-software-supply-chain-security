@@ -1,5 +1,29 @@
 # Awesome Software Supply Chain Security
 
+- [Awesome Software Supply Chain Security](#awesome-software-supply-chain-security)
+  - [Glossary](#glossary)
+  - [Landscape](#landscape)
+  - [Secret Leakages](#secret-leakages)
+  - [Software Bill of Materials](#software-bill-of-materials)
+  - [Software Composition Analysis](#software-composition-analysis)
+  - [Static Application Security Testing](#static-application-security-testing)
+  - [Infrastructure as Code Secure](#infrastructure-as-code-secure)
+  - [Cloud Security Posture Management](#cloud-security-posture-management)
+  - [Anti-malware Engine](#anti-malware-engine)
+  - [Container Security Scanners](#container-security-scanners)
+  - [Vulnerabilities Database & Tools](#vulnerabilities-database--tools)
+  - [Artifact Metadata](#artifact-metadata)
+  - [Identity Tools](#identity-tools)
+  - [CI/CD](#cicd)
+  - [Signing Artefacts](#signing-artefacts)
+  - [Framework](#framework)
+  - [Kubernetes Admission Controller](#kubernetes-admission-controller)
+  - [Risk Management](#risk-management)
+  - [OCI Image Tools](#oci-image-tools)
+  - [Data Store](#data-store)
+  - [Fuzz Testing](#fuzz-testing)
+  - [Demo](#demo)
+
 ## Glossary
 
 - SBOM: Software Bill of Materials
@@ -30,7 +54,12 @@
 - [bom](https://github.com/kubernetes-sigs/bom) - ![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/bom?style=flat-square) - A utility to generate SPDX-compliant Bill of Materials manifests
 - [ko](https://github.com/google/ko) - ![GitHub stars](https://img.shields.io/github/stars/google/ko?style=flat-square) - Build and deploy Go applications on Kubernetes, support generate upload SBOM etc.
 - [sbom-tool](https://github.com/microsoft/sbom-tool) - ![GitHub stars](https://img.shields.io/github/stars/microsoft/sbom-tool?style=flat-square) - Microsoft's SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.
-- [spdx-sbom-generator](https://github.com/opensbom-generator/spdx-sbom-generator) - ![GitHub stars](https://img.shields.io/github/stars/opensbom-generator/spdx-sbom-generator?style=flat-square) - Support CI generation of SBOMs via golang tooling
+- [spdx-sbom-generator](https://github.com/opensbom-generator/spdx-sbom-generator) - ![GitHub stars](https://img.shields.io/github/stars/opensbom-generator/spdx-sbom-generator?style=flat-square) - Support CI generation of SBOMs via golang tooling.
+- [sbom-composer](https://github.com/vmware-samples/sbom-composer) - ![GitHub stars](https://img.shields.io/github/stars/vmware-samples/sbom-composer?style=flat-square) - A tool that takes two or more micro SBOMs and composes them into one distributable SBOM.
+- [tejolote](https://github.com/kubernetes-sigs/tejolote) - ![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/tejolote?style=flat-square) - A highly configurable build executor and observer designed to generate signed SLSA provenance attestations about build runs.
+- [KiBoM](https://github.com/SchrodingersGat/KiBoM) - ![GitHub stars](https://img.shields.io/github/stars/SchrodingersGat/KiBoM?style=flat-square) - Configurable BoM generation tool for [KiCad EDA](http://kicad.org/).
+- [bomsh](https://github.com/git-bom/bomsh) - ![GitHub stars](https://img.shields.io/github/stars/git-bom/bomsh?style=flat-square) - bomsh is collection of tools to explore the GitBOM idea.
+- [sbom-operator](https://github.com/ckotzbauer/sbom-operator) - ![GitHub stars](https://img.shields.io/github/stars/ckotzbauer/sbom-operator?style=flat-square) - Catalogue all images of a Kubernetes cluster to multiple targets with Syft.
 
 ## Software Composition Analysis
 
@@ -47,6 +76,8 @@
 - [Gemnasium](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium) - Dependency Scanning analyzer that uses the GitLab Advisory Database.
 - [reuse-tool](https://github.com/fsfe/reuse-tool) - ![GitHub stars](https://img.shields.io/github/stars/fsfe/reuse-tool?style=flat-square) - The tool for checking and helping with compliance with the REUSE recommendations
 - [lgtm](https://lgtm.com/) - A code analysis platform for finding zero-days and preventing critical vulnerabilities
+- [bomber](https://github.com/devops-kung-fu/bomber) - ![GitHub stars](https://img.shields.io/github/stars/devops-kung-fu/bomber?style=flat-square) - Scans SBOMs for security vulnerabilitiesrecommendations
+- [CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner) - ![GitHub stars](https://img.shields.io/github/stars/logpresso/CVE-2021-44228-Scanner?style=flat-square) - Vulnerability scanner and mitigation patch for Log4j2 CVE-2021-44228
 
 ## Static Application Security Testing
 
@@ -184,6 +215,7 @@
 - [Scorecard](https://github.com/ossf/scorecard) - ![GitHub stars](https://img.shields.io/github/stars/ossf/scorecard?style=flat-square) - Scorecards is an automated tool that assesses a number of important heuristics ("checks") associated with software security and assigns each check a score of 0-10.
 - [Open Source Project Criticality Score](https://github.com/ossf/criticality_score) - ![GitHub stars](https://img.shields.io/github/stars/ossf/criticality_score?style=flat-square) - Gives criticality score for an open source project
 - [allstar](https://github.com/ossf/allstar) - ![GitHub stars](https://img.shields.io/github/stars/ossf/allstar?style=flat-square) - GitHub App to set and enforce security policies
+- [SSVC](https://github.com/CERTCC/SSVC) - ![GitHub stars](https://img.shields.io/github/stars/CERTCC/SSVC?style=flat-square) - Stakeholder-Specific Vulnerability Categorization
 
 ## OCI Image Tools
 
