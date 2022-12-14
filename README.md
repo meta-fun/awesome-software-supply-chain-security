@@ -11,7 +11,7 @@
   - [Cloud Security Posture Management](#cloud-security-posture-management)
   - [Anti-malware Engine](#anti-malware-engine)
   - [Container Security Scanners](#container-security-scanners)
-  - [Vulnerabilities Database & Tools](#vulnerabilities-database--tools)
+  - [Vulnerabilities Database \& Tools](#vulnerabilities-database--tools)
   - [Artifact Metadata](#artifact-metadata)
   - [Identity Tools](#identity-tools)
   - [CI/CD](#cicd)
@@ -78,6 +78,7 @@
 - [lgtm](https://lgtm.com/) - A code analysis platform for finding zero-days and preventing critical vulnerabilities
 - [bomber](https://github.com/devops-kung-fu/bomber) - ![GitHub stars](https://img.shields.io/github/stars/devops-kung-fu/bomber?style=flat-square) - Scans SBOMs for security vulnerabilitiesrecommendations
 - [CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner) - ![GitHub stars](https://img.shields.io/github/stars/logpresso/CVE-2021-44228-Scanner?style=flat-square) - Vulnerability scanner and mitigation patch for Log4j2 CVE-2021-44228
+- [osv-scanner](https://github.com/google/osv-scanner) - ![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=flat-square) - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
 
 ## Static Application Security Testing
 
@@ -102,6 +103,7 @@
 - [licensee](https://github.com/licensee/licensee) - ![GitHub stars](https://img.shields.io/github/stars/licensee/licensee?style=flat-square) - A Ruby Gem to detect under what license a project is distributed.
 - [licenseclassifier](https://github.com/google/licenseclassifier) - ![GitHub stars](https://img.shields.io/github/stars/google/licenseclassifier?style=flat-square) - The license classifier is a library and set of tools that can analyze text to determine what type of license it contains. It searches for license texts in a file and compares them to an archive of known licenses.
 - [licensed](https://github.com/github/licensed) - ![GitHub stars](https://img.shields.io/github/stars/github/licensed?style=flat-square) - A Ruby gem to cache and verify the licenses of dependencies
+- [Tencent Cloud Code Analysis](https://github.com/Tencent/CodeAnalysis) - ![GitHub stars](https://img.shields.io/github/stars/Tencent/CodeAnalysis?style=flat-square) - Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking.
 
 ## Infrastructure as Code Secure
 
