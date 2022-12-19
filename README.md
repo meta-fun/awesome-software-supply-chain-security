@@ -9,7 +9,7 @@
   - [Static Application Security Testing](#static-application-security-testing)
   - [Infrastructure as Code Secure](#infrastructure-as-code-secure)
   - [Cloud Security Posture Management](#cloud-security-posture-management)
-  - [Anti-malware Engine](#anti-malware-engine)
+  - [Malware Detection](#malware-detection)
   - [Container Security Scanners](#container-security-scanners)
   - [Vulnerabilities Database \& Tools](#vulnerabilities-database--tools)
   - [Artifact Metadata](#artifact-metadata)
@@ -116,9 +116,10 @@
 - [RiskScanner](https://github.com/fit2cloud/riskscanner) - ![GitHub stars](https://img.shields.io/github/stars/fit2cloud/riskscanner?style=flat-square) - RiskScanner is an open source multi-cloud security compliance scanning platform, Based on Cloud Custodian, Prowler and Nuclei engines, it realizes security compliance scanning and vulnerability scanning of mainstream public (private) cloud resources.
 - [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - ![GitHub stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=flat-square) - A security orchestration and vulnerability management platform.
 
-## Anti-malware Engine
+## Malware Detection
 
 - [ClamAV](https://github.com/Cisco-Talos/clamav) - ![GitHub stars](https://img.shields.io/github/stars/Cisco-Talos/clamav?style=flat-square) - ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
+- [YARA](https://github.com/VirusTotal/yara) - ![GitHub stars](https://img.shields.io/github/stars/VirusTotal/yara?style=flat-square) - YARA is a tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples.
 
 ## Container Security Scanners
 
