@@ -23,6 +23,7 @@
   - [Data Store](#data-store)
   - [Fuzz Testing](#fuzz-testing)
   - [Demo](#demo)
+- [KubeStellar Console](https://github.com/kubestellar/console) — Multi-cluster Kubernetes management console with built-in supply chain security; integrates SBOM generation, SLSA provenance, Sigstore/Cosign signing, and Kyverno policy enforcement across cloud and edge clusters.
 
 ## Glossary
 
