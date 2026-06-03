@@ -219,6 +219,7 @@
 - [Open Source Project Criticality Score](https://github.com/ossf/criticality_score) - ![GitHub stars](https://img.shields.io/github/stars/ossf/criticality_score?style=flat-square) - Gives criticality score for an open source project
 - [allstar](https://github.com/ossf/allstar) - ![GitHub stars](https://img.shields.io/github/stars/ossf/allstar?style=flat-square) - GitHub App to set and enforce security policies
 - [SSVC](https://github.com/CERTCC/SSVC) - ![GitHub stars](https://img.shields.io/github/stars/CERTCC/SSVC?style=flat-square) - Stakeholder-Specific Vulnerability Categorization
+- [proof-of-commitment](https://github.com/piiiico/proof-of-commitment) - ![GitHub stars](https://img.shields.io/github/stars/piiiico/proof-of-commitment?style=flat-square) - Supply chain risk scoring for npm, PyPI, Rust, and Go packages based on behavioral commitment signals: publisher concentration, transfer history, and contributor counts.
 
 ## OCI Image Tools
 
