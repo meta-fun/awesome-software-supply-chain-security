@@ -79,6 +79,7 @@
 - [bomber](https://github.com/devops-kung-fu/bomber) - ![GitHub stars](https://img.shields.io/github/stars/devops-kung-fu/bomber?style=flat-square) - Scans SBOMs for security vulnerabilitiesrecommendations
 - [CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner) - ![GitHub stars](https://img.shields.io/github/stars/logpresso/CVE-2021-44228-Scanner?style=flat-square) - Vulnerability scanner and mitigation patch for Log4j2 CVE-2021-44228
 - [osv-scanner](https://github.com/google/osv-scanner) - ![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=flat-square) - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+- [VulnReach](https://github.com/OWASP/VulnReach/) - ![GitHub stars](https://img.shields.io/github/stars/OWASP/VulnReach?style=flat-square) - OWASP VulnReach adds runtime-aware reachability analysis on top of SCA output, classifying each detected CVE as dynamically reachable, statically reachable, uncertain, or not reachable using static taint tracking, AST call-graph analysis, route exposure mapping, and live runtime coverage.
 
 ## Static Application Security Testing
 
