@@ -79,6 +79,7 @@
 - [bomber](https://github.com/devops-kung-fu/bomber) - ![GitHub stars](https://img.shields.io/github/stars/devops-kung-fu/bomber?style=flat-square) - Scans SBOMs for security vulnerabilitiesrecommendations
 - [CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner) - ![GitHub stars](https://img.shields.io/github/stars/logpresso/CVE-2021-44228-Scanner?style=flat-square) - Vulnerability scanner and mitigation patch for Log4j2 CVE-2021-44228
 - [osv-scanner](https://github.com/google/osv-scanner) - ![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=flat-square) - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+- [blastradius](https://github.com/jondot/blastradius) - ![GitHub stars](https://img.shields.io/github/stars/jondot/blastradius?style=flat-square) - Read-only CLI that finds everywhere a bad package, runtime, CA certificate or secret landed across repos, CI, container images and laptops, and who owns each place.
 
 ## Static Application Security Testing
 
